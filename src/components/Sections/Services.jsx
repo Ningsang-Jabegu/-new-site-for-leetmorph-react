@@ -22,36 +22,34 @@ export default function Services() {
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Our Awesome Services</h1>
-            <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
-            </p>
           </HeaderInfo>
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="roller"
-                title="Graphic Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+                title="App Development"
+                subtitle="Craft captivating digital journeys that resonate with your audience.  Discover our proven methodologies tailored to crafting software  solutions that not only address challenges but also captivate users and  drive business success."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="monitor"
-                title="Web Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+                title="Design"
+                subtitle="Our Expertise Transforms UI/UX, Creating Seamless Journeys that Delight Users and Propel Business Success. Explore Our Proven Methodologies to Craft Solutions that Captivate and Drive Results."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="browser"
-                title="Development"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+                title="Quality Assurance"
+                subtitle="Our Robust QA Services Ensure Seamless Functionality, Reliable Performance, and Unmatched User Satisfaction. Explore Our Proven Methodologies for Crafting Solutions that Exceed Expectations and Drive Business Growth"
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
-              <ServiceBox icon="printer" title="Print" subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor." />
+              <ServiceBox 
+              icon="printer" 
+              title="Digital Marketing" 
+              subtitle="Our Expert Marketing and Social Media Services Drive Engagement, Expand Reach, and Enhance Brand Influence. Explore Tailored Strategies to Amplify Online Presence" />
             </ServiceBoxWrapper>
           </ServiceBoxRow>
         </div>

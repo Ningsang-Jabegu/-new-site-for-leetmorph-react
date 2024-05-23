@@ -12,10 +12,9 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">We are Digital Agency.</h1>
-          <HeaderP className="font13 semiBold">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          <h1 className="extraBold font60"><span style={{color:"#255781"}}>Redefine</span><span style={{color:"#EF5366"}}> the better with</span> <span style={{color:"#255781"}}>Us.</span></h1>
+          <HeaderP className="font13 semiBold" style={{color:"#656565"}}>
+          We help businesses and brands imagine and create the digital experiences of tomorrow.
           </HeaderP>
           <BtnWrapper>
             <FullButton title="Get Started" />
