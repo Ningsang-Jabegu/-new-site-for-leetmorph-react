@@ -7,6 +7,10 @@ import './style/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/* Disables right clicks in the site */
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+
 ReactDOM.render(
   <>
     <App />

@@ -33,38 +33,26 @@ export default function TestimonialSlider() {
       <Slider {...settings}>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            text="Leetmorph’s team of web developers transformed our online presence. Their attention to detail and technical prowess are unmatched."
+            author="Ralph Waldo Emerson, CEO at Iconic Media Corporation"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            text="We partnered with Leetmorph for our mobile app project. Their agile approach and seamless communication made the development process a breeze."
+            author="Jane Smith, CTO at Texas Innovations"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            text="Leetmorph’s social media team boosted our brand visibility. Their creative content and strategic campaigns have significantly impacted our audience engagement."
+            author="David Johnson, Marketing Manager at Ceen Enterprises"
           />
         </LogoWrapper>
         <LogoWrapper className="flexCenter">
           <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
-          />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
-          />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
+            text="From concept to final edit, Leetmorph delivered captivating videos that resonate with our audience. Their video production team is truly exceptional."
+            author="Emily Brown, Creative Director at Purdo Studios"
           />
         </LogoWrapper>
       </Slider>

@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-scroll";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
@@ -12,18 +13,21 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60"><span style={{color:"#255781"}}>Redefine</span><span style={{color:"#EF5366"}}> the better with</span> <span style={{color:"#255781"}}>Us.</span></h1>
-          <HeaderP className="font13 semiBold" style={{color:"#656565"}}>
-          We help businesses and brands imagine and create the digital experiences of tomorrow.
+          <h1 className="extraBold font60"><span style={{ color: "#255781" }}>Redefine</span><span style={{ color: "#EF5366" }}> the better with</span> <span style={{ color: "#255781" }}>Us.</span></h1>
+          <HeaderP className="font13 semiBold" style={{ color: "#FEFEFE" }}>
+            We help businesses and brands imagine and create the digital experiences of tomorrow.
           </HeaderP>
-          <BtnWrapper>
-            <FullButton title="Get Started" />
-          </BtnWrapper>
+          <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-80}>
+            <BtnWrapper>
+              <FullButton title="Get Started" />
+            </BtnWrapper>
+          </Link>
+
         </div>
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
+          <Img className="radius8" src={HeaderImage} alt="office" style={{ zIndex: 9 }} />
           <QuoteWrapper className="flexCenter darkBg radius8">
             <QuotesWrapper>
               <QuotesIcon />
@@ -32,7 +36,7 @@ export default function Header() {
               <p className="font15 whiteColor">
                 <em>Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.</em>
               </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p>
+              <p className="font13 orangeColor textRight" style={{ marginTop: '10px' }}>Ralph Waldo Emerson</p>
             </div>
           </QuoteWrapper>
           <DotsWrapper>

@@ -30,7 +30,7 @@ export default function Blog() {
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <BlogBox
-                title="New Office!"
+                title="New Post!"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 tag="company"
                 author="Luke Skywalker, 2 days ago"
@@ -39,7 +39,7 @@ export default function Blog() {
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <BlogBox
-                title="New Office!"
+                title="Digitalizing Nation!"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 tag="company"
                 author="Luke Skywalker, 2 days ago"
@@ -50,7 +50,7 @@ export default function Blog() {
           <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <BlogBox
-                title="New Office!"
+                title="UI/UX & Web Development!"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 tag="company"
                 author="Luke Skywalker, 2 days ago"
@@ -59,7 +59,7 @@ export default function Blog() {
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <BlogBox
-                title="New Office!"
+                title="How Digital Agency works?"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 tag="company"
                 author="Luke Skywalker, 2 days ago"
@@ -68,7 +68,7 @@ export default function Blog() {
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <BlogBox
-                title="New Office!"
+                title="Recent Activities"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 tag="company"
                 author="Luke Skywalker, 2 days ago"
@@ -88,9 +88,7 @@ export default function Blog() {
           <HeaderInfo>
             <h1 className="font40 extraBold">What They Say?</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+            At <strong>Leetmorph Technology Pvt. Ltd</strong>, our clients’ satisfaction speaks volumes. Here’s what they have to say about our services:
             </p>
           </HeaderInfo>
           <TestimonialSlider />

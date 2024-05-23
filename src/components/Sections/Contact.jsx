@@ -13,9 +13,9 @@ export default function Contact() {
           <HeaderInfo>
             <h1 className="font40 extraBold">Let's get in touch</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+            At Leetmorph Technology Pvt. Ltd, we value communication and collaboration. 
+            <br />
+            Whether you have questions, need assistance, or want to discuss a project, we’re here for you.
             </p>
           </HeaderInfo>
           <div className="row" style={{ paddingBottom: "30px" }}>

@@ -98,12 +98,18 @@ export default function Projects() {
               <h4 className="font15 semiBold">A few words about company</h4>
               <h2 className="font40 extraBold">A Study of Creativity</h2>
               <p className="font12">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Here’s what we offer:
               </p>
+              <ol className="numBullet font12">
+                <li>Web Development</li>
+                <li>App Development</li>
+                <li>Social Media Handling</li>
+                <li>Video Production & Editing</li>
+                <li>Graphic Designing & other IT services</li>
+              </ol>
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                 <div style={{ width: "190px" }}>
-                  <FullButton title="Get Started" action={() => alert("clicked")} />
+                  <FullButton title="Learn More" action={() => alert("clicked")} />
                 </div>
                 <div style={{ width: "190px", marginLeft: "15px" }}>
                   <FullButton title="Contact Us" action={() => alert("clicked")} border />

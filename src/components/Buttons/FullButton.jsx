@@ -20,9 +20,9 @@ const Wrapper = styled.button`
   padding: 15px;
   outline: none;
   color: ${(props) => (props.border ? "#707070" : "#fff")};
-  :hover {
-    background-color: ${(props) => (props.border ? "transparent" : "#EF5366")};
-    border: 1px solid #EF5366;
+  &:hover {
+    background-color: ${(props) => (props.border ? "transparent" : "#424F66")};
+    border: 1px solid #424F66;
     color: ${(props) => (props.border ? "#2B5B84" : "#fff")};
   }
 `;

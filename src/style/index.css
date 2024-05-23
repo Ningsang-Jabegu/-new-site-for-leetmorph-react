@@ -25,6 +25,11 @@
   ol, ul {
     list-style: none;
   }
+  ol.numBullet {
+    list-style: number;
+    margin-left: 1rem;
+    /* font-size: 12pt; */
+  }
   blockquote, q {
     quotes: none;
   }
@@ -32,6 +37,9 @@
   q:before, q:after {
     content: '';
     content: none;
+  }
+  h1, h2 {
+    color: #255781;
   }
   table {
     border-collapse: collapse;
@@ -51,7 +59,7 @@
   }
   body {
     background: #fff;
-    color: #0B093B;
+    color: #777777;
     font-family: 'Khula', sans-serif;
     overflow-x: hidden;
     font-size: 16px;

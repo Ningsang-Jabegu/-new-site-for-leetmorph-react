@@ -11,17 +11,15 @@ export default function Pricing() {
           <HeaderInfo>
             <h1 className="font40 extraBold">Check Our Pricing</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+            At Leetmorph Technology Pvt. Ltd, we offer transparent and flexible pricing plans to meet your specific needs. Explore our options below:
             </p>
           </HeaderInfo>
           <TablesWrapper className="flexSpaceNull">
             <TableBox>
               <PricingTable
                 icon="roller"
-                price="$29,99/mo"
-                title="Starter"
+                price="Rs.3,000/mo"
+                title="Basic Plan"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 offers={[
                   { name: "Product Offer", cheked: true },
@@ -36,8 +34,8 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 icon="monitor"
-                price="$49,99/mo"
-                title="Basic"
+                price="Rs.7,000/mo"
+                title="Pro Plan"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 offers={[
                   { name: "Product Offer", cheked: true },
@@ -52,8 +50,8 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 icon="browser"
-                price="$59,99/mo"
-                title="Golden"
+                price="Rs.15,000/mo"
+                title="Enterprise Plan"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 offers={[
                   { name: "Product Offer", cheked: true },
