@@ -1,30 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- ==================================================================================================================
+        meta tag for the description of the webpage
+        ====================================================================================================================-->
+        <meta name="description" content="Empower your business with LeetMorph Technology's expert services in team augmentation, product development, design, and AI. We specialize in crafting tomorrow’s digital experiences to propel your business forward. Partner with us to bring your innovative visions to life.">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+        <!-- ==================================================================================================================
+        meta tag for the keywords of the webpage
+        ====================================================================================================================-->
+        <meta name="keywords" content="IT solutions,backend development,data science,web design,Django,Python,custom software,custom development,software development companies in nepal,software development companies near me">
+
+        <!-- ==================================================================================================================
+        LeetMorph Technology: Pioneering IT solutions with expertise in backend development, data science, and web design. Discover how our cutting-edge Django, Python, and Java technologies can transform your business. Visit us now for innovative and scalable digital solutions.
+        ====================================================================================================================-->
+        <meta name="author" content=" LeetMorph - LeetMorph Technology pvt. ltd, info@leetmorph.com"> 
+        <meta name='copyright' content='LeetMorph Technology'>
+        <meta name='subject' content="Creative web development and digital Marketing Services">
+        <meta name='language' content='en'>
+        <meta name='robots' content='index,follow'>
+        <meta name='revised' content='Thursday, may 2nd, 2024, 3:30 pm'>
+        <meta name='abstract' content='Web Design, Digital Marketing, SEO Optimization, Backend Development, Graphic Design'>
+        <meta name='topic' content='Web Design, Digital Marketing, SEO Optimization, Backend Development, Graphic Design'>
+        <meta name='summary' content="Empower your business with LeetMorph Technology's expert services in team augmentation, product development, design, and AI. We specialize in crafting tomorrow’s digital experiences to propel your business forward. Partner with us to bring your innovative visions to life.">
+        <meta name='Classification' content='Information Technology Business'>
+        <meta name='designer' content='Roshan Adhikari'>
+        <meta name='reply-to' content='info@leetmorph.com'>
+        <meta name='director' content='Ningsang Jabegu'>
+        <meta name='url' content='https://leetmorph.com'>
+        <meta name='identifier-URL' content='https://leetmorph.com'>
+        <meta name='directory' content='submission'>
+        <meta name='pagename' content="LeetMorph Technology: Pioneering IT solutions with expertise in backend development, data science, and web design. ">
+        <meta name='category' content='Web Design, Digital Marketing, SEO Optimization, Backend Development, Graphic Design'>
+        <meta name='coverage' content='Worldwide'>
+        <meta name='distribution' content='Global'>
+        <meta name='rating' content='General'>
+        <meta name='revisit-after' content='7 days'>
+        <meta name='subtitle' content='Web Design, Digital Marketing, SEO Optimization, Backend Development, Graphic Design'>
+        <meta name='target' content='all'>
+        <meta name='HandheldFriendly' content='True'>
+        <meta name='MobileOptimized' content='320'>
+        <meta name='date' content='May 2, 2024'>
+        <meta name='search_date' content='2023-09-09'>
+        <meta name='DC.title' content='LeetMorph Technology - Redefining the Better, Navigate Success with Us.'>
+        <meta name='ResourceLoaderDynamicStyles' content=''>
+        <meta name='medium' content='website'>
+        <meta name='syndication-source' content='https://leetmorph.com'>
+        <meta name='original-source' content='https://leetmorph.com'>
+        <meta name='pageKey' content='home'>
+        <meta itemprop='name' content='LeetMorph Technology '>
+        <meta http-equiv='Expires' content='0'>
+        <meta http-equiv='Pragma' content='no-cache'>
+        <meta http-equiv='Cache-Control' content='no-cache'>
+        <meta http-equiv='imagetoolbar' content='no'>
+        <meta http-equiv='x-dns-prefetch-control' content='off'>
+        
+        <!-- ==================================================================================================================
+        This is for twitter card only
+        ====================================================================================================================-->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@leetmorph" />
+        <meta name="twitter:title" content="Redefining the Better, Navigate Success with Us - LeetMorph Technology"/>
+        <meta name="twitter:description" content="Web Design, Digital Marketing, SEO Optimization, Backend Development, Graphic Design" />
+        <meta name="twitter:image" content="/src/image/logo/only_o_of_leetmorph.png" />
+
+        <!-- ==================================================================================================================
+        This is for og (facebook + other social media) card only
+        ====================================================================================================================-->
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="LeetMorph Technology - Redefining the Better: Navigate Success with Us." />
+        <meta property="og:description" content="LeetMorph Technology: Pioneering IT solutions with expertise in backend development, data science, and web design. " />
+        <meta name='category' content="Web Design, Digital Marketing, SEO Optimization, Backend Development, Graphic Design" />
+        <meta property="og:url" content="https://leetmorph.com/" />
+        <meta property="og:image" content="/src/image/logo/only_o_of_leetmorph.png" />
+
+        <!-- ==================================================================================================================
+        Title of the page
+        ====================================================================================================================-->
+        <title>Leetmorph: An Information Technology Company</title>
+
+        <!-- For SF Pro Display font  -->
+        <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+        
+        <!-- ==================================================================================================================
+        Link to FavIcon, that is the image seen in the tab bar of the browser
+        ====================================================================================================================-->
+        <link rel="icon" type="image/" href="/src/image/logo/only_o_of_leetmorph.png" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -41,3 +105,8 @@
     -->
   </body>
 </html>
+
+
+
+
+

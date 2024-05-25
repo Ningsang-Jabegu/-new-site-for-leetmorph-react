@@ -14,7 +14,7 @@ export default function Header() {
       <LeftSide className="flexCenter">
         <div>
           <h1 className="extraBold font60"><span style={{ color: "#255781" }}>Redefine</span><span style={{ color: "#EF5366" }}> the better with</span> <span style={{ color: "#255781" }}>Us.</span></h1>
-          <HeaderP className="font13 semiBold" style={{ color: "#FEFEFE" }}>
+          <HeaderP className="font13 semiBold" >
             We help businesses and brands imagine and create the digital experiences of tomorrow.
           </HeaderP>
           <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-80}>
