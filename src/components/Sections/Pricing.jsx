@@ -18,15 +18,15 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 icon="roller"
-                price="Rs.3,000/mo"
-                title="Basic Plan"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                price="Rs.8,000/mo"
+                title="Single Page Website"
+                text="We offer single information page for your business in minimal and realaible cost with great user inferface and designs."
                 offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: false },
-                  { name: "Product", cheked: false },
-                  { name: "Product Offer", cheked: false },
+                  { name: "Domain Name", cheked: true },
+                  { name: "Hosting", cheked: true },
+                  { name: "SEO Optimization", cheked: false },
+                  { name: "Maintainance", cheked: false },
+                
                 ]}
                 action={() => alert("clicked")}
               />
@@ -34,15 +34,14 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 icon="monitor"
-                price="Rs.7,000/mo"
-                title="Pro Plan"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                price="Rs.15,000/mo"
+                title="Multi-Page Website"
+                text="We offer multi page website for your business in minimal and realaible cost with great user inferface and designs."
                 offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: true },
-                  { name: "Product", cheked: true },
-                  { name: "Product Offer", cheked: false },
+                  { name: "Domain Name", cheked: true },
+                  { name: "Hosting", cheked: true },
+                  { name: "SEO Optimization", cheked: true },
+                  { name: "Maintainance", cheked: false },
                 ]}
                 action={() => alert("clicked")}
               />
@@ -50,15 +49,14 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 icon="browser"
-                price="Rs.15,000/mo"
-                title="Enterprise Plan"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                price="Rs.45,000/mo"
+                title="E-Commerce Website"
+                text="We offer ecommerce website with admin panel for your business in reasonable cost with great user inferface and designs."
                 offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Product Offer #2", cheked: true },
-                  { name: "Product", cheked: true },
-                  { name: "Product Offer", cheked: true },
+                  { name: "Domain Name", cheked: true },
+                  { name: "Hosting", cheked: true },
+                  { name: "SEO Optimization", cheked: true },
+                  { name: "Maintainance", cheked: true },
                 ]}
                 action={() => alert("clicked")}
               />

@@ -20,9 +20,10 @@ export default function Projects() {
           <HeaderInfo>
             <h1 className="font40 extraBold">Our Awesome Projects</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+            At Leetmorph Technology Pvt. Ltd, we take pride in our work 
+            and the solutions we provide. Our portfolio is a testament to 
+            our commitment to excellence and innovation. <br/>
+            Here are some highlights from our collection of awesome projects:
             </p>
           </HeaderInfo>
           <div className="row textCenter">
@@ -31,7 +32,8 @@ export default function Projects() {
                 img={ProjectImg1}
                 title="Fastblur Production"
                 text="An animation agency in Nepal, specializing in 2D animation."
-                action={() => alert("clicked")}
+                // action={{}}
+                webLink="https://fastblurpro.com/"
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -39,7 +41,8 @@ export default function Projects() {
                 img={ProjectImg2}
                 title="KYTCS"
                 text="Social not for profit organization working on connecting Chobegu/Jabegu community"
-                action={() => alert("clicked")}
+                // action={{}}
+                webLink="https://chobegusajumlung.org.np/"
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -47,7 +50,8 @@ export default function Projects() {
                 img={ProjectImg3}
                 title="Xi International"
                 text="An educational consultancy helping to upskill the academic journey of students."
-                action={() => alert("clicked")}
+                // action={{}}
+                webLink="#"
               />
             </div>
           </div>
@@ -55,25 +59,28 @@ export default function Projects() {
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg4}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
+                title="Ninestars"
+                text=" Team of talented designers making websites with Bootstrap"
+                // action={{}}
+                webLink="https://leetmorph.vercel.app/"
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg5}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
+                title="NPAC"
+                text="They are Nogen Pharmacy And Clinic group promoting and selling medicines online."
+                // action={{}}
+                webLink="https://npac.com.np/"
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg6}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
+                title="Ecothaili"
+                text="A BioPlastic company which manifactures banana baed plastic"
+                // action={{}}
+                webLink="https://ecothaili.vercel.app/"
               />
             </div>
           </div>

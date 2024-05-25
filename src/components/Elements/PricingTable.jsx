@@ -37,7 +37,7 @@ export default function PricingTable({ icon, price, title, text,  offers, action
         <p className="font30 extraBold">{price}</p>
       </div>
       <div style={{ margin: "30px 0" }}>
-        <h4 className="font30 extraBold">{title}</h4>
+        <h4 className="extraBold" style={{fontSize:"1.8rem"}}>{title}</h4>
         <p className="font13">{text}</p>
       </div>
       <div>
