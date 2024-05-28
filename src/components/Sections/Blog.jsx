@@ -13,18 +13,16 @@ export default function Blog() {
           <HeaderInfo>
             <h1 className="font40 extraBold">Our Blog Stories</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+            Welcome to the Leetmorph Technology Pvt. Ltd blog, where we share our thoughts, experiences, and stories from the tech world. <br /> Dive into our latest articles:
             </p>
           </HeaderInfo>
           <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <BlogBox
-                title="New Office!"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                tag="company"
-                author="Luke Skywalker, 2 days ago"
+                title="Industry Trends and News in 2024: Shaping the Future of IT and Software Solutions"
+                text="Welcome to our 2024 industry trends and news update! As a leading IT solutions and software company, we are excited to share the latest developments that are shaping our field."
+                tag="IT Industry"
+                author="Kshitij Mahato, 0 days ago"
                 action={() => alert("clicked")}
               />
             </div>
