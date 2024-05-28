@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-scroll";
 // Components
 import ProjectBox from "../Elements/ProjectBox";
 import FullButton from "../Buttons/FullButton";
@@ -20,10 +21,10 @@ export default function Projects() {
           <HeaderInfo>
             <h1 className="font40 extraBold">Our Awesome Projects</h1>
             <p className="font13">
-            At Leetmorph Technology Pvt. Ltd, we take pride in our work 
-            and the solutions we provide. Our portfolio is a testament to 
-            our commitment to excellence and innovation. <br/>
-            Here are some highlights from our collection of awesome projects:
+              At Leetmorph Technology Pvt. Ltd, we take pride in our work
+              and the solutions we provide. Our portfolio is a testament to
+              our commitment to excellence and innovation. <br />
+              Here are some highlights from our collection of awesome projects:
             </p>
           </HeaderInfo>
           <div className="row textCenter">
@@ -86,7 +87,7 @@ export default function Projects() {
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton title="Load More" action={() => alert("clicked")} />
+              {/* <FullButton title="Load More" action={() => alert("clicked")} /> */}
             </div>
           </div>
         </div>
@@ -105,7 +106,7 @@ export default function Projects() {
               <h4 className="font15 semiBold">A few words about company</h4>
               <h2 className="font40 extraBold">A Study of Creativity</h2>
               <p className="font12">
-              Here’s what we offer:
+                Here’s what we offer:
               </p>
               <ol className="numBullet font12">
                 <li>Web Development</li>
@@ -116,10 +117,14 @@ export default function Projects() {
               </ol>
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                 <div style={{ width: "190px" }}>
-                  <FullButton title="Learn More" action={() => alert("clicked")} />
+                  <Link activeClass="active" style={{ padding: "10px 15px" }} to="services" spy={true} smooth={true} offset={-80}>
+                    <FullButton title="Learn More" />
+                  </Link>
                 </div>
                 <div style={{ width: "190px", marginLeft: "15px" }}>
-                  <FullButton title="Contact Us" action={() => alert("clicked")} border />
+                  <Link activeClass="active" style={{ padding: "10px 15px" }} to="contact" spy={true} smooth={true} offset={-80}>
+                    <FullButton title="Contact Us" border />
+                  </Link>
                 </div>
               </ButtonsRow>
             </AddRight>
